@@ -10,5 +10,5 @@ This contract serves as the venue through which NFT drops and unique assets are 
 ## ClutchCoin.sol
 Clutch Coin lies at the heart of the Cluth protocol, it facilitates:
 - Decentralized governance of the core protocol
-- Utility through ???
-- etc.
+- Two-sided ad economy
+- Incentivize key stakeholders
