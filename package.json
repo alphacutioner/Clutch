@@ -1,0 +1,35 @@
+{
+  "name": "clutch",
+  "version": "0.0.1",
+  "description": "NCAA Ad-space peer-to-peer protocol",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "ganache": "ganache-cli --gasLimit=0x1fffffffffffff --gasPrice=0x1 --allowUnlimitedContractSize --defaultBalanceEther 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphacutioner/Clutch.git"
+  },
+  "keywords": [
+    "NFT",
+    "ethereum",
+    "clutch",
+    "NCAA"
+  ],
+  "author": "alphacutioner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphacutioner/Clutch/issues"
+  },
+  "homepage": "https://github.com/alphacutioner/Clutch#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ganache-cli": "^6.12.2",
+    "truffle": "^5.4.5",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+}
