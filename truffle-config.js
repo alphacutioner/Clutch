@@ -1,5 +1,5 @@
 require('dotenv').config();
-var HDWalletProvider = require('truffle-hdwallet-provider');
+// var HDWalletProvider = require('truffle-hdwallet-provider');
 
 module.exports = {
   networks: {
@@ -11,9 +11,9 @@ module.exports = {
     },
     kovan: {
       networkCheckTimeout: 10000,
-      provider: function() {
-        return new HDWalletProvider(process.env.PRIVATE_KEY_KOVAN, "https://kovan.infura.io/v3/" + process.env.INFURA_API_KEY)
-      },
+      // provider: function() {
+      //   return new HDWalletProvider(process.env.PRIVATE_KEY_KOVAN, "https://kovan.infura.io/v3/" + process.env.INFURA_API_KEY)
+      // },
       network_id: 42,
       from: process.env.ADMIN,
       timeoutBlocks: 220

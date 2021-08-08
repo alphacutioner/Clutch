@@ -27,9 +27,12 @@
   },
   "homepage": "https://github.com/alphacutioner/Clutch#readme",
   "dependencies": {
+    "@openzeppelin/contracts": "^4.2.0",
     "dotenv": "^10.0.0",
     "ganache-cli": "^6.12.2",
-    "truffle": "^5.4.5",
+    "truffle": "^5.4.5"
+  },
+  "devDependencies": {
     "truffle-hdwallet-provider": "^1.0.17"
   }
 }
